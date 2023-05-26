@@ -40,7 +40,7 @@ export class RegisterComponent {
     return this.f['password'].dirty && this.f['password'].errors?.['required'];
   }
 
-  checkPasswordLemgth(){
+  checkPasswordLength(){
     return this.f['password'].dirty && this.f['password'].errors?.['minlength'];
   }
 

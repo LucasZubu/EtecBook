@@ -11,15 +11,17 @@
         </div>
 
         <div class="form-floating mb-2">
-            <input formControlName="email" type="email" class="form-control" id="email" placeholder="Email" placeholder="Email" [class.is-invalid]="checkEmail() || checkEmailValid()" >
+            <input formControlName="email" type="email" class="form-control" id="email" placeholder="Email" [class.is-invalid]="checkEmail() || checkEmailValid()" >
             <label for="email" ><i class='bx bxs-envelope'></i> Email</label>
             <span *ngIf="checkEmail()" class="text-danger text-start d-block mt-1"> *Campo Obrigatório</span>
             <span *ngIf="checkEmailValid()" class="text-danger text-start d-block mt-1"> *Informe mum Email Valido</span>
         </div>
 
         <div class="form-floating">
-            <input formControlName="password" type="password" class="form-control" id="password" placeholder="Senha">
+            <input formControlName="password" type="password" class="form-control" id="password" placeholder="Senha" [class.is-invalid]="checkPassword() || checkPasswordLength()">
             <label for="floatingPassword"><i class='bx bxs-lock-alt' ></i> Senha</label>
+            <span *ngIf="checkPassword()" class="text-danger text-start d-block mt-1"> *Campo Obrigatório</span>
+            <span *ngIf="checkPasswordLength()" class="text-danger text-start d-block mt-1"> *Senha com minimo de 6 caracteres</span>
         </div>
 
         <button class="w-100 btn btn-lg btn-primary my-2" type="submit">Criar Conta</button>

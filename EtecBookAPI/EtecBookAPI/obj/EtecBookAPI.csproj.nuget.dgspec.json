@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj": {}
+    "C:\\Users\\etec\\Desktop\\EtecBook\\etecbookapi\\EtecBookAPI\\EtecBookAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj": {
+    "C:\\Users\\etec\\Desktop\\EtecBook\\etecbookapi\\EtecBookAPI\\EtecBookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\EtecBook\\etecbookapi\\EtecBookAPI\\EtecBookAPI.csproj",
         "projectName": "EtecBookAPI",
-        "projectPath": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\EtecBookAPI.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\EtecBook\\etecbookapi\\EtecBookAPI\\EtecBookAPI.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\EtecBook\\EtecBookAPI\\EtecBookAPI\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\EtecBook\\etecbookapi\\EtecBookAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
